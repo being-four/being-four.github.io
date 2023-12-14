@@ -1,7 +1,7 @@
 ---
 layout:       post
-title:        "《JavaScript 二十年》推荐语"
-author:       "Hux"
+title:        "爬取扇贝接口数据"
+author:       "Bear"
 header-style: text
 catalog:      true
 tags:
@@ -39,4 +39,3 @@ Na = function(e) {
 ![image.png](https://cdn.nlark.com/yuque/0/2023/png/1699335/1691567572617-92a7faf8-315c-4d6e-9948-fdf62d9ee58a.png#averageHue=%23fefefe&clientId=u499c888c-4e96-4&from=paste&height=42&id=uaf3a1438&originHeight=138&originWidth=2102&originalType=binary&ratio=2&rotation=0&showTitle=false&size=37360&status=done&style=none&taskId=udea29b04-5a69-4ac8-a975-9e0ed869afb&title=&width=636)
 ![image.png](https://cdn.nlark.com/yuque/0/2023/png/1699335/1691567665897-fc656028-76ae-4dfc-a348-040c678ff5b8.png#averageHue=%23fefcfc&clientId=u499c888c-4e96-4&from=paste&height=310&id=u8a73b384&originHeight=1098&originWidth=2276&originalType=binary&ratio=2&rotation=0&showTitle=false&size=278134&status=done&style=none&taskId=uf10dce03-293e-4e57-9c78-9c4ca1264f9&title=&width=643)
 好啦，接下来就把这块的源代码拼凑起来，就完成啦，具体的解码/加密思路没有研究过，可以参考：[github他人拼凑的结果](https://gist.github.com/yihong0618/7db0ad82d97c642eb5537d026431739e)；
-
