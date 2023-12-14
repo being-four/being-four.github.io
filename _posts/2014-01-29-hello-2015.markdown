@@ -25,3 +25,4 @@ Bear 的 Blog 就这么开通了。
 首先感谢Github Pages，Jekyll、Hux，2023年末，Bear终于搞定了一直想要的博客网站。
 <p id = "build"></p>
 ---
+— Bear
