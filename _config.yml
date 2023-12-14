@@ -5,11 +5,11 @@ header-img: img/home-bg.jpg
 email: wall.e.127.0.0.1@gmail.com
 description: "「On The Road」"
 keyword: ""
-url: "https://being-four.github.io/"              # your host, for absolute URL
+url: "https://being-four.github.io"              # your host, for absolute URL
 
 # SNS settings
 RSS: false
-github_username:  being-four
+github_username: being-four
 
 
 
