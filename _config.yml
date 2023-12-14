@@ -1,21 +1,26 @@
 # Site settings
 title: Bear Blog
-SEOTitle: 小熊博客 | Bear Blog
+SEOTitle: 小熊的博客 | Bear Blog
 header-img: img/home-bg.jpg
 email: wall.e.127.0.0.1@gmail.com
 description: "「On The Road」"
-keyword: ""
+keyword: "Bear, Bear Blog, 小熊博客, Golang"
 url: "https://being-four.github.io"              # your host, for absolute URL
+baseurl: ""
+
+# Sidebar settings
+sidebar: true                           # whether using Sidebar.
+sidebar-about-description: "不会rap的Rapper不是好的程序媛"
+sidebar-avatar: /img/avatar-bear.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+
 
 # SNS settings
 RSS: false
 github_username: being-four
 
 
-
 # Build settings
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
-highlighter: rouge
 permalink: pretty
 paginate: 10
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
@@ -32,23 +37,17 @@ gems: [jekyll-paginate]
 # although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
 # document: http://jekyllrb.com/docs/configuration/#kramdown
 markdown: kramdown
+highlighter: rouge
 kramdown:
   input: GFM                            # use Github Flavored Markdown !important
-
-
-
-# Sidebar settings
-sidebar: true                           # whether using Sidebar.
-sidebar-about-description: "不会rap的Rapper不是好的程序媛"
-sidebar-avatar: /img/avatar-hux.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
-
-
 
 # Featured Tags
 featured-tags: true                     # whether using Feature-Tags
 featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
 
-
+# Progressive Web Apps
+chrome-tab-theme-color: "#000000"
+service-worker: true
 
 # Friends
 friends: []
